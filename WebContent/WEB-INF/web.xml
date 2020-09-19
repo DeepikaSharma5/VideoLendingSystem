@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>OOP Employee Web App</display-name>
+  
+  
+  <servlet-mapping>
+  <servlet-name>DeleteServlet</servlet-name>
+  <url-pattern>/DeleteVideoServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>RegisterServlet</servlet-name>
+  <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>AdminDeleteServlet</servlet-name>
+  <url-pattern>/AdminDeleteServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>AdminEditServlet</servlet-name>
+  <url-pattern>/AdminEditServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  <servlet-name>AdminEditServlet2</servlet-name>
+  <url-pattern>/AdminEditServlet2</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  <servlet-name>AdminViewServlet</servlet-name>
+  <url-pattern>/AdminViewServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  <servlet-name>AdminSaveServlet</servlet-name>
+  <url-pattern>/AdminSaveServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  <servlet-name>AdminLoginServlet</servlet-name>
+  <url-pattern>/AdminLoginServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  <servlet-name>AdminLogoutServlet</servlet-name>
+  <url-pattern>/AdminLogoutServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  <servlet-name>UserLogoutServlet</servlet-name>
+  <url-pattern>/UserLogoutServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  <servlet-name>RequestVideoDeleteServlet</servlet-name>
+  <url-pattern>/RequestVideoDeleteServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>RequestVideoEditServlet</servlet-name>
+  <url-pattern>/RequestVideoEditServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>RequestVideoEditServlet2</servlet-name>
+  <url-pattern>/RequestVideoEditServlet2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>RequestVideoViewServlet</servlet-name>
+  <url-pattern>/RequestVideoViewServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>UserDeleteServlet</servlet-name>
+  <url-pattern>/UserDeleteServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>UserEditServlet</servlet-name>
+  <url-pattern>/UserEditServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>UserEditServlet2</servlet-name>
+  <url-pattern>/UserEditServlet2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>UserSaveServlet</servlet-name>
+  <url-pattern>/UserSaveServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>ImageDownloader</servlet-name>
+  <url-pattern>/ImageDownloader</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>UploadServlet</servlet-name>
+  <url-pattern>/UploadServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>VideoServlet</servlet-name>
+  <url-pattern>/list</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>VideoServlet</servlet-name>
+  <url-pattern>/new</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>VideoServlet</servlet-name>
+  <url-pattern>/edit</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>VideoServlet</servlet-name>
+  <url-pattern>/insert</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>VideoServlet</servlet-name>
+  <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>VideoServlet</servlet-name>
+  <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>AddFeedback</servlet-name>
+  <url-pattern>/AddFeedback</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>DeleteFeedback</servlet-name>
+  <url-pattern>/DeleteFeedback</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>ViewFeedback</servlet-name>
+  <url-pattern>/ViewFeedback</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>EditFeedback</servlet-name>
+  <url-pattern>/EditFeedback</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>EditFeedback2</servlet-name>
+  <url-pattern>/EditFeedback2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>AddBillServlet</servlet-name>
+  <url-pattern>/AddBillServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>DeleteBillServlet</servlet-name>
+  <url-pattern>/DeleteBillServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>InsertBillServlet</servlet-name>
+  <url-pattern>/InsertBillServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>UpdateBillServlet</servlet-name>
+  <url-pattern>/UpdateBillServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>EditBillServlet</servlet-name>
+  <url-pattern>/EditBillServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>ListBillServlet</servlet-name>
+  <url-pattern>/ListBillServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+ 
+  
+  
+  <servlet-mapping>
+  <servlet-name>UserViewServlet</servlet-name>
+  <url-pattern>/UserViewServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>ComingSoonDeleteServlet</servlet-name>
+  <url-pattern>/ComingSoonDeleteServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>ComingSoonViewServlet</servlet-name>
+  <url-pattern>/ComingSoonViewServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>ComingSoonUploadServlet</servlet-name>
+  <url-pattern>/ComingSoonUploadServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  <servlet-mapping>
+  	<servlet-name>default</servlet-name>
+  	<url-pattern>*.css</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>default</servlet-name>
+  	<url-pattern>*.jpg</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>default</servlet-name>
+  	<url-pattern>*.jpeg</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  	<servlet-name>default</servlet-name>
+  	<url-pattern>*.png</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>default</servlet-name>
+  	<url-pattern>*.js</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>default</servlet-name>
+  	<url-pattern>*.mp4</url-pattern>
+  </servlet-mapping>
+  
+  
+  <welcome-file-list>
+    
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    
+    
+  </welcome-file-list>
+  </web-app>
+  </element>
+  
